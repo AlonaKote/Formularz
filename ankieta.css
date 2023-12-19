@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(Otterly\ Adorable\ -\ TTF.ttf);
+}
+
+h4{
+    text-align:center;
+    color: #8064a2;
+    font-family: 'myFont';
+}
+
+@font-face {
+    font-family: 'myFont1';
+    font-size: 100px;;
+    src: url(Wintry.ttf);
+}
+
+h1{
+    font-family: 'myFont1';
+    color: #8064a2;
+}
+
+#questions {
+    font-family: "Myfont";
+    src: url(Otterly\ Adorable\ -\ TTF.ttf);
+    color: #8064a2;
+}
+
+.question {
+    font-family: "Myfont";
+    src: url(Otterly\ Adorable\ -\ TTF.ttf);
+    color: #8064a2;
+}
+
+.question1 {
+    font-family: "Myfont";
+    src: url(Otterly\ Adorable\ -\ TTF.ttf);
+    color: #8064a2;
+}
+
+#socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#socialIcons img {
+    width: 30px; 
+    margin: 0 10px; 
+
+
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin: 20px;
+    }
+    
+    .submitButton,
+    .resetButton {
+        background-color: #8064a2;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+
+    
+    .submitButton:hover,
+    .resetButton:hover {
+        background-color: #8064a2;
+    }
+    
